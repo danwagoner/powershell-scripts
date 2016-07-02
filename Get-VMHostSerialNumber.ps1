@@ -1,0 +1,1 @@
+Get-VMHost | Get-View | Select Name, @{l=”SerialNumber”; e={$_.Hardware.SystemInfo.OtherIdentifyingInfo.IdentifierValue.split(“,”)[0]}}
