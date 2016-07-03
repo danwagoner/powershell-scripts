@@ -6,7 +6,7 @@
 # Description:    This script generates an HTML report of outstanding
 #                VMWare snapshots, and correlates them to a user via
 #                VMWare events.
-#
+# URL: http://www.nerdybynature.com/2014/10/17/powercli-vmware-snapshot-report/
 # Usage: Get-SnapShotReport.ps1 -Server <vCenter/ESXi Server Name>
 #==========================
 
