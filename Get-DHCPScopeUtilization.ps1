@@ -1,3 +1,12 @@
+#===========================
+# Created on:   09/10/2014
+# Created by:   Dan Wagoner
+# Organization: NBN
+# Filename:     Get-DHCPUtilization.ps1
+# URL: http://www.nerdybynature.com/2014/09/10/powershell-dhcp-utilization-monitor/
+# Usage: Get-DHCPUtilization.ps1
+#==========================
+
 $threshold = 90
 $email_to = "<name@domain.com>"
 $email_from = "<name@domain.com>"
